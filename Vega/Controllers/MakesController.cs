@@ -17,6 +17,7 @@ namespace Vega.Controllers
     [EnableCors("CorsPolicy")]
     public class MakesController : Controller
     {
+        //
         private readonly ILogger _logger;
         private readonly IMapper _mapper;
         private readonly ApplicationDbContext _context;
