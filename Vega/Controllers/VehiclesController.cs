@@ -43,6 +43,7 @@ namespace Vega.Controllers
     [EnableCors("CorsPolicy")]
     public class VehiclesController : Controller
     {
+        //
         private readonly IMapper mapper;
         public IVehicleRepository repository;
         private readonly IUnitOfWork unitOfWork;
